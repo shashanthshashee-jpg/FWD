@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightcyan;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+        }
+
+        form {
+            width: 350px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid gray;
+        }
+
+        input {
+            margin-top: 10px;
+            padding: 6px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 8px;
+            background-color: lightgreen;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>Student Registration Form</h2>
+</header>
+
+<main>
+<form>
+    <input type="text" placeholder="Name" required>
+
+    <input type="email" placeholder="Email" required>
+
+    <input type="text" placeholder="Mobile Number"
+           pattern="[0-9]{10}" required>
+
+    <input type="password" placeholder="Password"
+           minlength="8" required>
+
+    <input type="password" placeholder="Confirm Password"
+           minlength="8" required>
+
+    <button type="submit">Register</button>
+</form>
+</main>
+
+</body>
+</html>

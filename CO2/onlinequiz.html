@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Quiz Login</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+        }
+
+        form {
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid gray;
+        }
+
+        input {
+            margin-top: 10px;
+            padding: 6px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 8px;
+            background-color: lightgreen;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>Online Quiz Login</h2>
+</header>
+
+<main>
+<form>
+    <input type="text" placeholder="Username"
+           pattern="[A-Za-z]+" required>
+
+    <input type="password" placeholder="Password"
+           pattern="(?=.*[0-9])(?=.*[@#$%!]).{6,}" required>
+
+    <button type="submit">Login</button>
+</form>
+</main>
+
+</body>
+</html>
+

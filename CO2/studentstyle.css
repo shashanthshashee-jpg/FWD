@@ -1,0 +1,25 @@
+body 
+{
+    font-family:arial;
+    background-color:green;
+    margin:0;
+}
+header {
+    background-color:blue;
+    text-align:center;
+    padding:15px;
+}
+.content {
+    background-color:pink;
+    margin:20px;
+    padding:15px;
+    border-radius:5px;
+}
+h2 {
+    color:#003366;
+}
+footer {
+    background-color:gray;
+    text-align:center;
+    padding:15px;
+}

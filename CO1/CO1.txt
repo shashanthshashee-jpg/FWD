@@ -1,0 +1,17 @@
+CO1
+1. Internet Fundamentals
+2. html and introduction in styling
+3. HTTP and HTTPs
+4. Client server Architecture 
+5. Browser Basics(types of browsers and rendering 4m)
+6. Rendering (6m)
+7. Html document structure(4m)
+8. Different types of heading
+9. Paragraph(links , images)
+10. Types of CSS
+11. Selectors(6m)
+12. Typography
+13. Color Representation
+13. Timetable (padding)
+
+

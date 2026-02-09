@@ -1,0 +1,101 @@
+<DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+font-family: Arial. sans-serif;
+background-color:lightpink;
+}
+header {
+text-align: center;
+padding: 10px;
+background-color: lightblue;
+}
+form {
+display : flex;
+flex-direction : column;
+max-width: 400px;
+margin: auto;
+padding: 15px;
+background-color: white;
+border: 1px solid gray;
+}
+label {
+margin-top: 10px;
+}
+input, select, textarea {
+padding: 5px;
+margin-top: 5px;
+}
+button {
+margin-top : 15px;
+padding : 8px;
+background-color: lightgreen;
+border : none;
+cursor : pointer;
+transition: background-color 0.5s;
+}
+  button:hover {
+            background-color: green;
+            color: white;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        img {
+            display: block;
+            margin: 10px auto;
+            width: 100px;
+        }
+
+        @media (max-width: 600px) {
+            form {
+                width: 90%;
+            }
+        }
+</style>
+</head>
+<body>
+<header> Student Feedback </header>
+<main img src="college.png" alt="College image">
+<form>
+<label> Name: </label>
+<input type = "text" required>
+<label> Email: </label>
+<input type="email" required>
+<label> Department </label>
+<select>
+<option> CSE </option>
+<option> CSIT </option>
+<option> ECE </option>
+</select>
+<label> Rating: </label>
+<input type = "radio" name="rate"> Excellent
+<input type = "radio" name="rate"> Good
+<input type = "radio" name="rate"> Average
+<label>Suggestions:</label>
+<textarea></textarea>
+<button type="submit"> Submit </button>
+</form>
+<table>
+<tr> 
+<th>Name</th>
+<th>Rating</th>
+</tr>
+<tr>
+<td>Student A</td>
+<td> Excellent </td>
+</tr>
+</table>
+</main>
+</body>
+
+</html>
